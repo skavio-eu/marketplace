@@ -3,8 +3,8 @@
   "id": "skavio-usdc-proof",
   "type": "mcp",
   "name": "Skavio USDC Payment Verification & Proof MCP",
-  "tagline": "Verify USDC transactions and generate evidence PDFs through x402-paid agent tools",
-  "description": "Connect directly to Skavio's hosted Streamable HTTP MCP endpoint. Discover 18 tools and access public tool metadata without login. Paid functions verify native Circle USDC transfers across seven chains, match the exact recipient and amount, generate payment evidence PDFs, and audit public domain DNS/TLS. Prices: verify 0.02 USDC, match 0.03 USDC, evidence PDF 0.05 USDC, DNS/TLS audit 0.05 USDC. **Payments require an x402 v2-compatible wallet-capable client and USDC on Base; merely installing this MCP does not configure a wallet or grant free paid executions.** Evidence PDFs are not tax invoices. Full setup: https://www.skavio.eu/x402/docs/.",
+  "tagline": "USDC x402 proof tools plus authenticated web search, extraction and monitoring",
+  "description": "Connect directly to Skavio hosted Streamable HTTP MCP, with 18 discoverable tools. x402 v2 paid functions verify native Circle USDC transfers across seven chains (0.02 USDC), match recipient/amount (0.03), generate blockchain evidence PDFs (0.05), and audit DNS/TLS (0.05), paid in native USDC on Base. Three separate authenticated AgentTools web_fetch/web_extract/web_monitor relays now support Serper query and HTTPS URL sources, optionally DeepSeek analysis; those require your own Skavio company Bearer API key and a separate per-workload quote or prepaid credits. Installing this MCP does not provide wallet access or free execution. Evidence PDFs are not tax invoices. Documentation: https://github.com/skavio-eu/skavio-agent-tools/blob/main/WEB_TOOLS.md",
   "author": {
     "name": "Skavio LLC",
     "url": "https://www.skavio.eu/"
