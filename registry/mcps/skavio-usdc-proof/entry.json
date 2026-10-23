@@ -4,7 +4,7 @@
   "type": "mcp",
   "name": "Skavio USDC Payment Verification & Proof MCP",
   "tagline": "USDC x402 proof tools plus authenticated web search, extraction and monitoring",
-  "description": "Connect directly to Skavio hosted Streamable HTTP MCP, with 18 discoverable tools. x402 v2 paid functions verify native Circle USDC transfers across seven chains (0.02 USDC), match recipient/amount (0.03), generate blockchain evidence PDFs (0.05), and audit DNS/TLS (0.05), paid in native USDC on Base. Three separate authenticated AgentTools web_fetch/web_extract/web_monitor relays now support Serper query and HTTPS URL sources, optionally DeepSeek analysis; those require your own Skavio company Bearer API key and a separate per-workload quote or prepaid credits. Installing this MCP does not provide wallet access or free execution. Evidence PDFs are not tax invoices. Documentation: https://github.com/skavio-eu/skavio-agent-tools/blob/main/WEB_TOOLS.md",
+  "description": "Connect directly to Skavio hosted Streamable HTTP MCP, with 18 discoverable tools. x402 v2 paid functions verify native Circle USDC transfers across seven chains (0.02 USDC), match recipient/amount (0.03), generate blockchain evidence PDFs (0.05), and audit DNS/TLS (0.05), paid in native USDC on Base. Three separate authenticated AgentTools web_fetch/web_extract/web_monitor relays now support Serper query and HTTPS URL sources, optionally DeepSeek analysis; those require your own Skavio company Bearer API key and a separate per-workload quote or prepaid credits. Installing this MCP does not provide wallet access or free execution. Evidence PDFs are not tax invoices. Documentation: https://github.com/skavio-eu/skavio-agent-tools/blob/main/guides/verify-usdc-with-x402.md",
   "author": {
     "name": "Skavio LLC",
     "url": "https://www.skavio.eu/"
@@ -26,6 +26,6 @@
     "notes": "Hosted public MCP discovery works without a wallet. To invoke paid tools, configure a separate client that supports x402 v2 settlement with native Circle USDC on Base; no wallet keys or signing data are requested by this listing."
   },
   "homepage": "https://www.skavio.eu/x402/",
-  "repo": "https://github.com/skavio-eu/skavio-payment-proof-api",
+  "repo": "https://github.com/skavio-eu/skavio-agent-tools",
   "icon": "https://www.skavio.eu/favicon.png"
 }
